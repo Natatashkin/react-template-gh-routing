@@ -5,6 +5,13 @@
 .vscode/
 .idea/
 
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+build
+.husky
+.vscode
+6
+
 # dependencies
 /node_modules
 /.pnp
@@ -26,3 +33,5 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+package-lock.json
